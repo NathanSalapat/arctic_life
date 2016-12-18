@@ -1,4 +1,4 @@
-mobs:register_mob("artic_life:penguin", {
+mobs:register_mob("arctic_life:penguin", {
 	type = "animal",
 	passive = false,
 	attack_type = "dogfight",
@@ -51,5 +51,5 @@ mobs:register_mob("artic_life:penguin", {
 	replace_with = "air",
 })
 
-mobs:register_spawn("artic_life:penguin", {"default:dirt_with_snow", "default:snowblock"}, 20, 0, 20000, 1, 31000)
-mobs:register_egg("artic_life:penguin", "Penguin", "default_grass.png", 1)
+mobs:register_spawn("arctic_life:penguin", {"default:dirt_with_snow", "default:snowblock"}, 20, 0, 20000, 1, 31000)
+mobs:register_egg("arctic_life:penguin", "Penguin", "default_grass.png", 1)
