@@ -7,5 +7,8 @@ Graphics by DuCake (CC-BY-SA 4.0)
 mobs_penguin_tux
 
 Sound:
-penguin_chirrup.ogg
+Penguin_chirrup.ogg
 Tai "DuCake" Kedzierski CC-BY-SA 4.0
+
+Walrus sounds
+AlexTriceratops123 CCA

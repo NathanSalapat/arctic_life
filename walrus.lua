@@ -4,10 +4,10 @@ mobs:register_mob("arctic_life:walrus", {
 	attack_type = "dogfight",
    reach = 1,
 	damage = 5,
-	hp_min = 5,
-	hp_max = 15,
+	hp_min = 15,
+	hp_max = 45,
 	armor = 200,
-	collisionbox = {-0.25, -0.4, -0.25, 0.25, 0.3, 0.25},
+	collisionbox = {-0.35, -0.5, -0.35, 0.35, 0.4, 0.35},
 	visual = "mesh",
 	mesh = "mobs_walrus.b3d",
 	drawtype = "front",
@@ -16,11 +16,13 @@ mobs:register_mob("arctic_life:walrus", {
 		{"mobs_walrus2.png"},
 	},
 	blood_texture = "mobs_blood.png",
-	visual_size = {x=8,y=8},
+	visual_size = {x=10,y=10},
 	makes_footstep_sound = false,
---	sounds = {
---		random = "penguin_chirrup",
---	},
+	sounds = {
+		random = "walrus_random.ogg",
+      war_cry = 'walrus_war_cry.ogg',
+      attack = 'walrus_attack.ogg'
+	},
 	-- speed and jump
 	walk_velocity = 1,
 	run_velocity = 2,
