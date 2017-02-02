@@ -8,6 +8,7 @@ mobs:register_mob("arctic_life:penguin", {
 	hp_min = 5,
 	hp_max = 15,
 	armor = 200,
+   fly_in = "default:water_source",
 	collisionbox = {-0.25, -0.4, -0.25, 0.25, 0.3, 0.25},
 	visual = "mesh",
 	mesh = "mobs_penguin.b3d",
@@ -28,14 +29,14 @@ mobs:register_mob("arctic_life:penguin", {
 	jump = true,
 	jump_height = 1,
 	stepheight = 1.1,
-	floats = 1,
+	floats = 0,
 	-- drops raw meat when dead
 	drops = {
 		{name = "mobs:meat_raw",
 		chance = 1, min = 1, max = 4},
 	},
 	-- damaged by
-	water_damage = 1,
+	water_damage = 0,
 	lava_damage = 5,
 	light_damage = 0,
 	-- model animation
@@ -45,6 +46,7 @@ mobs:register_mob("arctic_life:penguin", {
 		walk_start = 150,		walk_end = 170, -- walk
 		run_start = 150,		run_end = 170, -- walk
 		punch_start = 70,		punch_end = 140, -- attack
+      fly_start = 171,     fly_end = 201, -- swimming
 	},
 	follow = "farming:wheat", view_range = 7,
 	replace_rate = 50,
